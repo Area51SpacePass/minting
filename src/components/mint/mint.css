@@ -1,0 +1,79 @@
+.mint-image img {
+    width: 100%;
+    border: solid black 10px;
+    border-radius: 20px;
+}
+
+.mint-control {
+    background-image: linear-gradient(to bottom, #0A38F2, #0A38F2);
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+
+.mint-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mint-description header {
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 50px;
+    text-align: center;
+}
+
+.mint-description header span {
+    color: white;
+}
+
+.mint-description p {
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.mint-description .number-control {
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.mint-description .number-control span{
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+
+.ybutton {
+    background-color: #ffffff;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-width: 80px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+    border: solid 5px black;
+    border-radius: 20px;
+}
+
+.ybutton:hover{
+    transform: scale(1.1);
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}

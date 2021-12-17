@@ -1,0 +1,135 @@
+.header-control {
+    /* background-image: url('../../assets/DickBackground.png'); */
+    background-color: rgb(3, 62, 255);
+    /* this can be changed to header-back or dickbackground */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    height: 80px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+.header-control .navbar {
+    width: 70%;
+    background-color: #71076D;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-radius: 20px;
+    border: solid black 5px;
+    /* outline: 5px solid black; */
+    /* box-shadow: 0 0 0 3px rgb(0, 0, 0); */
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+.navbar-nav .nav-link{
+    color: white!important;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #073BF9!important;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: newfont;
+    src: url(/src/newfont.ttf);
+}
+
+.header-content h1 {
+    font-size: 51px;
+    font-family: newfont;
+    color: black;
+    /* font-style: italic; */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 900;
+    text-align: center;
+    /* background-color: #6D3612; */
+    /* padding: 25px; */
+    /* border: solid 10px black;
+    border-radius: 20px; */
+}
+
+.header-nav {
+    position: absolute;
+    top: 20px;
+    max-width: 1200px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-right: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-item :hover {
+    color: blue;
+}
+
+.thePicture {
+    height: 0px;
+    border: solid black 0px;
+    border-radius: 0px;
+    padding: 0px;
+    background-color: #FF9859;
+}
+
+.myNavBar {
+    padding-left: 0px;
+}
+
+@media (min-width: 1500px) {
+    .myNavBar {
+        padding-left: 150px;
+    }
+}
+
+@media (min-width: 767px) {
+
+    .header-control {
+        background-color: rgb(3, 62, 255);
+        /* this can be changed to header-back or dickbackground */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        padding-top: 40px;
+        padding-bottom: 0px;
+        height: 0px;
+        background-repeat: repeat;
+        margin-bottom: 0;
+        background-position: 100% 40%;
+    }
+
+    .thePicture {
+        height: 500px;
+        border: solid black 0px;
+        box-shadow: 0px 0px 50px white;
+        border-radius: 20px;
+        background-color: #d68a5b;
+    }
+}

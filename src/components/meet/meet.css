@@ -1,0 +1,54 @@
+.meet-control {
+    padding-top: 0px;
+    padding-bottom: 60px;
+    background-image: linear-gradient(to bottom, #7F005A, #083AF6);
+}
+
+.meet-control header {
+    font-size: 50px;
+    line-height: 50px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.meet-control header span {
+    color: #FF9859;
+}
+
+.remaining {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.remaining span {
+    color: #c8ff00;
+}
+
+.slide-arrows {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caroImg {
+    border: solid black 5px;
+    border-radius: 20px;
+}
+
+.slide-arrows a{
+    cursor: pointer;
+    background-color: #c8ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px
+}
