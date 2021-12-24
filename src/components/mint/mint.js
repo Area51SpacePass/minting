@@ -85,8 +85,8 @@ function Mint() {
                     </Col>
                     <Col md={6} xs={12} className='mint-description'>
                         <header>
-                            MINT YOUR <text style={{ color: "white" }}>AREA 51 SPACE PASS!</text><br/>
-                            MINT <text style={{ color: "white" }}>8 NFTS</text>  FOR A CHANCE TO COLLECT <br/>
+                        <text style={{ color: "white" }}>MINT YOUR AREA 51 SPACE PASS!</text><br/>
+                        <text style={{ color: "white" }}>MINT 8 NFTS FOR A CHANCE TO COLLECT</text>  <br/>
                             <text style={{ color: "white" }}>THE WHOLE ALBUM!</text>
                         </header>
                         <p style={{ textAlign: "center", color: "white" }}>
